@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');   
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor01:#91BBF2;
+    --cor02:#035AA6;
+    --cor03:#023059;
+    --cor04:#011526;    
+    --cor05:#0367A6;
+
+    --fontandroid:'Android';
+    --fontbebas:'Bebas', sans-serif;
+    --fontpadrao:'arial', 'sans-serif';
+}
+header{
+    background-color: blue;
+    min-height: 200px;
+}
+header h1{
+    text-align: center;
+    color: #fafafa;
+    font-family: var(--fontbebas);
+    
+}
+header p{
+    text-align: center;
+    color: #fafafa;
+}
