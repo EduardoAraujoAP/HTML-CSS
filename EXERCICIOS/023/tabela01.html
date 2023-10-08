@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            height: 400px;
+            width: 400px;
+            border-collapse: collapse;
+        }
+        /*tr.linha{
+            background-color: lightgray;
+            
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td.dado{
+            background-color: yellow;
+        }*/
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .numero{
+                text-align: left;
+        }
+        .numero2{
+            text-align: right;
+        }
+        .numero3{
+            vertical-align: bottom;
+        }
+
+    </style>
+</head>
+<body>
+    <H1>
+        minha primeira tabela
+    </H1>
+    <!--hieranquia de tabela simples
+    table = tabela 
+    table row = linha de tabela
+    table header = cabeçalho da tabela
+    table data = dados da tabela-->
+    <table>
+        <tr><!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td class="numero2">A2</td>
+            <td class="numero3">B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <tr>
+            <td class="numero2">A3</td>
+            <td class="numero3">B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td class="dado">B4</td>
+            <td>C4</td>
+        
+    </table>
+</body>
+</html>
