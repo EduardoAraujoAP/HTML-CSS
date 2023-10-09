@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
-*{}
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
 body{
-    background-image: linear-gradient(to left,rgb(7, 7, 7) ,#141414);
-    
+    width: 97vw;
+    height: 97vh;
+    background-image: linear-gradient(to bottom,rgb(7, 7, 7) ,#141414);
 }
 header{
     text-align: center;
@@ -16,11 +19,18 @@ header h1{
     color: #fafafa;
 }
 nav a{
-    padding: 11px;
+    padding: 3px;
 }
-
+img{
+    border-radius: 7px;
+}
+nav > a > img{
+    box-sizing: border-box;
+    margin: 10px;
+    width: 10vw;
+}
 a img:hover{
-    box-shadow: 0px 0px 5px #ffffff;
+    border: 2px solid white;
 }
 div{
     padding-top: 70px;
