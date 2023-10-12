@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body ,html{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+section#login > div#imagem{
+    background: #5f2c82 url('pexels-vinícius-estevão-2896034.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
