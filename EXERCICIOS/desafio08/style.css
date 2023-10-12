@@ -20,16 +20,95 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.582);
+    transition: width 500ms, heigth 500ms;
+    transition-timing-function: ease;
+    transform: translate(-50% ,-50%);
 }
 section#login > div#imagem{
+    display: block;
     background: #5f2c82 url('pexels-vinícius-estevão-2896034.jpg');
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
+section#login h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+section#login p{
+    font-size: 0.9em;
+    padding: 0px 5px;
+    text-indent: 10px;
+}
+form > div.campo{
+    background-color: #5f2c82;
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 2px solid #5f2c82;
+}
+form > div.campo > span{
+    color: white;
+    background-color: transparent;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo input{
+    background-color: #16ccc9;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0px;
+    height: 100%;
+    width: calc(100% - 44px);
+    transform: translateY(-16px);
+}
+div.campo > input:focus-within{
+    background-color: white;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+form > input[type=submit]:hover{
+    background-color:#5a7e7d ;
+}
+form > a.botao{
+    padding-top: 5px;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #5a7e7d;
+    background-color: #16ccc9;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;   
+}
+form > a.botao:hover{
+    background-color: #137472;
+}
+a.botao > span{
+    font-size: 0.8em;
+
 }
