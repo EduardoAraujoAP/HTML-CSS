@@ -82,5 +82,143 @@ div#branco{
     left: 50%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0px 0px 10px black;
+    
+}
+div#branco h1{
+    padding: 25px 0px 0px 25px;
+    font-size: 1.3em;
+    color: rgb(32, 32, 32);
+}
+.reaction{
+    background-color: rgba(255, 85, 85, 0.314); 
+    position: absolute;  
+    width: 80%;
+    top: 21%;
+    left: 10%;
+    height: 10%;
+    border-radius: 8px;
+}
+.reaction p.red{
+    color: #FF5555;
+    margin-left: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    font-size: 1em;
+}
+.reaction img{
+    position: absolute;
+    margin-left: 10px;
+    top: 25%;
+}
+.reaction > p{
+    color: gray;
+    position: absolute;
+    top: 30%;
+    margin-left: 120px;
+    font-size: .9em;
+}
+.memory{
+    background-color: rgba(255, 176, 30, 0.314); 
+    position: absolute;  
+    width: 80%;
+    top: 36%;
+    left: 10%;
+    height: 10%;
+    border-radius: 8px;
+}
+.memory p.ama{
+    color: #FFB21E;
+    margin-left: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    font-size: 1em;
+}
+.memory img{
+    position: absolute;
+    margin-left: 10px;
+    top: 25%;
+}
+.memory p{
+    color: gray;
+    position: absolute;
+    top: 30%;
+    margin-left: 120px;
+    font-size: .9em;
+}
+.verbal{
+    background-color:rgba(0, 187, 143, 0.314); 
+    position: absolute;  
+    width: 80%;
+    top: 51%;
+    left: 10%;
+    height: 10%;
+    border-radius: 8px;
+}
+.verbal p.ver{
+    color: #00BB8F;
+    margin-left: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    font-size: 1em;
+}
+.verbal img{
+    position: absolute;
+    margin-left: 10px;
+    top: 25%;
+}
+.verbal p{
+    color: gray;
+    position: absolute;
+    top: 30%;
+    margin-left: 120px;
+    font-size: .9em;
+}
+.visual{
+    background-color: rgba(17, 37, 214, 0.314); 
+    position: absolute;  
+    width: 80%;
+    top: 66%;
+    left: 10%;
+    height: 10%;
+    border-radius: 8px;
+}
+.visual p.vis{
+    color: #1125D6;
+    margin-left: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    font-size: 1em;
+}
+.visual img{
+    position: absolute;
+    margin-left: 10px;
+    top: 25%;
+}
+.visual p{
+    color: gray;
+    position: absolute;
+    top: 30%;
+    margin-left: 120px;
+    font-size: .9em;
+}
+#branco a{
+    text-decoration: none;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    color: white;
+    background-color: #313B5A;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+#branco a:hover{
+    background-color: #1d2335;
 }
