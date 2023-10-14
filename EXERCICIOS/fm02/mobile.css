@@ -20,11 +20,12 @@
     div#azul > div#meio > p.num{
         position: absolute;
         left: 35%;
+        
     }
     div#azul > div#meio > p.num2{
         position: absolute;
-        top: 48%;
-        left: 44%;
+        top: 150px;
+        left: 204px;
     }
     div#azul > h2{
         position: absolute;
@@ -37,5 +38,17 @@
     }
     div#branco h1{
         padding: 0px 40px;
+    }
+    .reaction > p{
+        margin-left: 80%;
+    }
+    .memory > p{
+        margin-left: 80%;
+    }
+    .verbal > p{
+        margin-left: 80%;
+    }
+    .visual > p{
+        margin-left: 80%;
     }
 }
