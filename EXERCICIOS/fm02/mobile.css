@@ -23,8 +23,8 @@
         
     }
     div#azul > div#meio > p.num2{
-        position: absolute;
-        top: 150px;
+        position: relative;
+        top: 66px;
         left: 204px;
     }
     div#azul > h2{
