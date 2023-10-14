@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 550px;
+    background-color: #EDFBFD;
+    display: block;
+    margin: auto;
+    background-image: url('imagens/bg-hero-desktop.svg');
+    box-sizing: cover;
+}
+header{
+    padding: 30px 0px 0px 45px;
+}
+header > h1{
+    font-weight: bolder;
+    color: #00252E;
+    font-size: 2.8em;
+}
+header a.b{
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    left: 78%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.575);
+    background-color: white;
+    padding: 15px 55px;
+    border-radius: 25px;
+    color: #00252E;
+}
+header a.b:hover{
+    background-color: rgb(230, 230, 230);
+    transition: all .35s ease-in-out;
+}
+header > h1 >span{
+    color: #EC53D2;
+    margin-right: 10px;
+}
+header img{
+    display: block;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.text{
+    width: 40%;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+.text > h2{
+font-size: 2.8em;
+color: #00252E;
+}
+.text > p{
+    font-size: 1.2em;
+    color: gray;
+}
+header a.r{
+    text-decoration: none;
+    color: #fafafa;
+    background-color: #FE53C1;
+    font-weight: bold;
+    padding: 20px 45px;
+    border-radius: 35px;
+}
+header a.r:hover{
+    background-color: #c23f94;
+    transition: all .35s ease-in-out;
+}
+main{
+    width: 100%;
+    background-color: white;
+    padding: 120px 0px 20px 0px;
+}
+article#p{
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+article#p div.text1{
+    width: 55%;
+    height: 400px;
+    padding: 120px;
+}
+.text1 h1{
+    padding: 10px;
+    font-size: 2em;
+}
+.text1 p{
+    padding: 10px;
+    font-size: 1em;
+    text-align: justify;
+}
+article#p img{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 102%;
+    left: 56%;
+}
