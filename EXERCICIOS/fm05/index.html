@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="seg">00</span>
+
+            </div>
+        </div>
+    </main>
+    <script>
+        let hrs = document.getElementById('hrs')
+        let min = document.getElementById('min')
+        let seg = document.getElementById('seg')
+        
+
+        setInterval(()=> {
+            let tempo = new Date()
+            hrs.innerHTML = (tempo.getHours()<10?"0":"") + tempo.getHours();
+            min.innerHTML = (tempo.getMinutes()<10?"0":"") + tempo.getMinutes();
+            seg.innerHTML = (tempo.getSeconds()<10?"0":"") + tempo.getSeconds()
+        },1000)
+        
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="cont">
+            <label for="idia" class="dia">Dia</label>
+            <label for="imes" class="mes">Mês</label>
+            <label for="iano" class="ano">Ano</label>
+        </div>
+        <header>
+            <input type="number" name="dia" id="idia">
+            <input type="number" name="mes" id="imes">
+            <input type="number" name="ano" id="iano">
+        </header>   
+        <hr>
+        
+        <div class="botao"><input type="button" value="verificar" id="buttom" onclick="verificar()">
+        </div>
+        <main>
+            <div><div id="resano">- - </div> <span id="resultado">Anos</span></div>
+            <div><div id="resmes">- - </div><span id="resultado">Meses</span></div>
+            <div><div id="resdia">- - </div><span id="resultado">Dias</span></div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
